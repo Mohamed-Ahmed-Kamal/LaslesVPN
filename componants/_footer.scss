@@ -1,0 +1,94 @@
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 230px;
+  padding: 40px;
+  width: 1060px;
+  position: absolute;
+  top: -232px;
+  z-index: 1;
+  background-color: var(--off-White);
+  p {
+    margin: 15px 0px;
+  }
+}
+.subscribe button {
+  background-color: var(--main-color);
+  padding: 15px 48px;
+  color: var(--off-White);
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: -1px 9px 20px 0px var(--main-color);
+  margin: 22px 0;
+}
+.footer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8080800f;
+  height: fit-content;
+  position: relative;
+  margin-top: 19rem;
+}
+.footer .footer__content {
+  display: flex;
+  margin-top: 16rem;
+  gap: 14rem;
+}
+.footer .contact {
+  width: 340px;
+}
+.footer .contact p {
+  margin: 25px 0;
+}
+.footer .contact .icon {
+  margin-top: 2rem;
+}
+.footer .contact .icon i {
+  color: var(--main-color);
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 23px;
+  margin-right: 11px;
+  cursor: pointer;
+}
+.footer .contact span {
+  margin-top: 4rem;
+  display: block;
+}
+
+.footer ul li {
+  margin: 15px 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer ul li:hover {
+  color: var(--main-color);
+}
+@media (max-width: 450px) {
+  .subscribe button {
+    width: 113px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .footer .footer__content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 870px) {
+  .footer .footer__content {
+    gap: 2rem;
+  }
+  .subscribe {
+    width: 100%;
+  }
+}

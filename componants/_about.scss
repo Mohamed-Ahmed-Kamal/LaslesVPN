@@ -1,0 +1,37 @@
+.about {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.about .about__text {
+  flex-basis: 50%;
+}
+.about .about__text h1 {
+  font-size: 43px;
+  font-weight: 700;
+}
+.about .about__text p {
+  margin: 15px 0;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+.about .about__text span {
+  font-weight: 900;
+}
+
+.about .about__img img {
+  width: 100%;
+}
+@media (max-width: 450px) {
+}
+@media (max-width: 660px) {
+  .about__text {
+    order: 2;
+  }
+  .about {
+ flex-direction: column;
+  }
+}
+@media (max-width: 870px) {
+
+}

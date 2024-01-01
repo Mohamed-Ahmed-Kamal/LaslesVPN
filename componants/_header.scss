@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+header .header__links ul {
+  display: flex;
+  gap: 3rem;
+}
+
+header .header__links ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+header .header__links ul li a:hover {
+  color: var(--main-color);
+}
+header .header__login {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+header .header__login .signIn {
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 450px) {
+  header .header__links ul {
+    gap: 15px;
+  }
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 870px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

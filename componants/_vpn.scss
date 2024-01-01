@@ -1,0 +1,33 @@
+.vpn .global__head p span {
+  font-weight: 800;
+}
+.vpn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.vpn__img {
+  margin-top: 155px;
+}
+.vpn__img img {
+  width: 100%;
+}
+
+.vpn__comp {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+
+@media (max-width: 600px) {
+  .vpn__comp img {
+    width: 36px;
+  }
+}
+@media (max-width: 870px) {
+  .vpn__img img {
+    width: 81%;
+  }
+}
